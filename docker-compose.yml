@@ -1,0 +1,42 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333" # REST
+      - "6334:6334" # gRPC
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    networks:
+      - appnet
+    restart: unless-stopped
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio-server
+    depends_on:
+      - qdrant
+    # Provide runtime env without quotes; compose reads .env-like files verbatim
+    env_file:
+      - .env.compose
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      NODE_ENV: production
+      PORT: 3500
+    ports:
+      - "3500:3500"
+    networks:
+      - appnet
+    restart: unless-stopped
+    # Optional: mount data folder if you want normalized.json accessible/persistent
+    # volumes:
+    #   - ./src/data:/usr/src/app/src/data:rw
+
+volumes:
+  qdrant_storage:
+
+networks:
+  appnet:
+    driver: bridge

@@ -1,0 +1,552 @@
+{
+  "generatedAt": "2025-12-27T16:02:38.562Z",
+  "count": 38,
+  "chunks": [
+    {
+      "id": "meta-profile-metadata-for-yuvraj-mehta",
+      "chunkType": "meta",
+      "source": "meta",
+      "title": "Profile metadata for Yuvraj Mehta",
+      "tags": [
+        "meta"
+      ],
+      "text": "This profile belongs to Yuvraj Mehta and is currently at version 2f44d5aa.",
+      "meta": {},
+      "shouldEmbed": false
+    },
+    {
+      "id": "metaAudit-yuvraj-mehta-profile-audit",
+      "chunkType": "metaAudit",
+      "source": "meta",
+      "title": "Yuvraj Mehta — Profile Audit",
+      "tags": [
+        "meta",
+        "audit"
+      ],
+      "text": "This profile is owned by Yuvraj Mehta and was last saved at 2025-12-27T13:38:55.515Z.",
+      "meta": {
+        "owner": "Yuvraj Mehta",
+        "savedAt": "2025-12-27T13:38:55.515Z"
+      },
+      "shouldEmbed": false
+    },
+    {
+      "id": "identity-yuvraj-mehta-overview",
+      "chunkType": "identity",
+      "source": "personalInfo",
+      "title": "Yuvraj Mehta — Overview",
+      "tags": [
+        "identity"
+      ],
+      "text": "I am Yuvraj Mehta, a Full Stack Developer. I am a B.Tech Computer Science student at NIT Patna and currently based in Patna, India.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "contact-yuvraj-mehta-contact-availability",
+      "chunkType": "contact",
+      "source": "personalInfo",
+      "title": "Yuvraj Mehta — Contact & Availability",
+      "tags": [
+        "contact",
+        "availability"
+      ],
+      "text": "I can be contacted via email at yuvraj.mehta532@gmail.com and phone at +91-9334083113. I am currently Available and prefer Remote, Hybrid, Onsite work modes. I operate in the IST (UTC +5:30) timezone.",
+      "meta": {
+        "email": "yuvraj.mehta532@gmail.com",
+        "phone": "+91-9334083113",
+        "availability": "Available",
+        "workModes": [
+          "Remote",
+          "Hybrid",
+          "Onsite"
+        ],
+        "timezone": "IST (UTC +5:30)",
+        "location": "Gaya, Bihar, India",
+        "currentLocation": "Patna, India"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "social-yuvraj-mehta-social-coding-profiles",
+      "chunkType": "social",
+      "source": "socialLinks",
+      "title": "Yuvraj Mehta — Social & Coding Profiles",
+      "tags": [
+        "social"
+      ],
+      "text": "I maintain active profiles across platforms such as GitHub, LinkedIn, LeetCode, CodeChef, Codeforces, GeeksForGeeks, Twitter, and Instagram.",
+      "meta": {
+        "github": "https://github.com/yuvraj-mehta",
+        "linkedin": "https://www.linkedin.com/in/mehta-yuvraj",
+        "leetcode": "https://leetcode.com/u/holaGuy/",
+        "geeksforgeeks": "https://www.geeksforgeeks.org/user/yuvrajmevbrx/",
+        "codechef": "https://www.codechef.com/users/quick_unity_53",
+        "codeforces": "https://codeforces.com/profile/yuvraj.mehta532",
+        "twitter": "https://x.com/yuvraj_mehta02",
+        "instagram": "https://www.instagram.com/yuvraj.mehta4261/"
+      },
+      "shouldEmbed": false
+    },
+    {
+      "id": "bio-yuvraj-mehta-bio-intro",
+      "chunkType": "bio",
+      "source": "personalInfo",
+      "title": "Yuvraj Mehta — Bio (intro)",
+      "tags": [
+        "bio",
+        "intro"
+      ],
+      "text": "B.Tech CS student at NIT Patna passionate about building full stack applications with a focus on user-friendly interfaces. Skilled in MERN Stack.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "bio-yuvraj-mehta-bio-full",
+      "chunkType": "bio",
+      "source": "personalInfo",
+      "title": "Yuvraj Mehta — Bio (full)",
+      "tags": [
+        "bio",
+        "full"
+      ],
+      "text": "Computer Science student at NIT Patna passionate about full stack development with a strong foundation in Data Structures & Algorithms. I approach technical challenges analytically and continually expand my skills in GenAI and modern web technologies. As a Robotics Club member, I've organized workshops and led teams building combat and soccer bots. Outside coding, I enjoy competitive programming and sports, having won Bronze in 50m Hurdles at NIT Patna Intramurals.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "bio-yuvraj-mehta-bio-robotics",
+      "chunkType": "bio",
+      "source": "personalInfo",
+      "title": "Yuvraj Mehta — Bio (robotics)",
+      "tags": [
+        "bio",
+        "robotics"
+      ],
+      "text": "As a Robotics Club member, I've organized workshops and led teams building combat and soccer bots. I believe in learning by doing and enjoy sharing knowledge with others through mentoring and technical discussions.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "bio-yuvraj-mehta-bio-interests",
+      "chunkType": "bio",
+      "source": "personalInfo",
+      "title": "Yuvraj Mehta — Bio (interests)",
+      "tags": [
+        "bio",
+        "interests"
+      ],
+      "text": "When I'm not coding, you can find me solving algorithmic challenges on competitive programming platforms, participating in hackathons, or running track. I won Bronze in 50m Hurdles at NIT Patna Intramurals!",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "careerPreference-yuvraj-mehta-career-preferences",
+      "chunkType": "careerPreference",
+      "source": "careerPreferences",
+      "title": "Yuvraj Mehta — Career Preferences",
+      "tags": [
+        "career"
+      ],
+      "text": "I am seeking Internship and Full-Time roles such as Software Engineer, Full Stack Developer, Backend Developer in domains including Web Development, Backend Systems, Distributed Systems, Generative AI.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "interest-robotics",
+      "chunkType": "interest",
+      "source": "interests",
+      "title": "Robotics",
+      "tags": [
+        "interest"
+      ],
+      "text": "When I'm not coding, I enjoy Building combat & soccer bots.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "interest-athletics",
+      "chunkType": "interest",
+      "source": "interests",
+      "title": "Athletics",
+      "tags": [
+        "interest"
+      ],
+      "text": "When I'm not coding, I enjoy Bronze in 50m Hurdles.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "interest-competitive-programming",
+      "chunkType": "interest",
+      "source": "interests",
+      "title": "Competitive Programming",
+      "tags": [
+        "interest"
+      ],
+      "text": "When I'm not coding, I enjoy LeetCode, Codeforces & more.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "interest-mentoring",
+      "chunkType": "interest",
+      "source": "interests",
+      "title": "Mentoring",
+      "tags": [
+        "interest"
+      ],
+      "text": "When I'm not coding, I enjoy Leading workshops.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "education-b-tech-in-computer-science-and-engineering-national-institute-of-technology-patn",
+      "chunkType": "education",
+      "source": "education",
+      "title": "B.Tech in Computer Science and Engineering — National Institute of Technology, Patna",
+      "tags": [
+        "education"
+      ],
+      "text": "B.Tech in Computer Science and Engineering at National Institute of Technology, Patna. Duration: 2023 - 2027. Courses include Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Networks, Artificial Intelligence. Activities include Class Representative for CSE Department, Member of Technical Club, Competitive Programming Participant.",
+      "meta": {
+        "location": "Patna, Bihar",
+        "status": "current",
+        "cgpa": "7.68/10"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "education-class-xii-cbse-pragya-bharti-public-school-gaya",
+      "chunkType": "education",
+      "source": "education",
+      "title": "Class XII (CBSE) — Pragya Bharti Public School, Gaya",
+      "tags": [
+        "education"
+      ],
+      "text": "Class XII (CBSE) at Pragya Bharti Public School, Gaya. Duration: 2021 - 2022. Courses include Physics, Chemistry, Mathematics, English, Physical Education. Activities include academic coursework.",
+      "meta": {
+        "location": "Gaya, Bihar",
+        "status": "completed",
+        "cgpa": "88.88%"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "education-class-x-cbse-pragya-bharti-public-school-gaya",
+      "chunkType": "education",
+      "source": "education",
+      "title": "Class X (CBSE) — Pragya Bharti Public School, Gaya",
+      "tags": [
+        "education"
+      ],
+      "text": "Class X (CBSE) at Pragya Bharti Public School, Gaya. Duration: 2019 - 2020. Courses include Science, Mathematics, Social Studies, English, Sanskrit, Information Technology. Activities include Science Exhibitions, Sports Competitions, Debate Competitions.",
+      "meta": {
+        "location": "Gaya, Bihar",
+        "status": "completed",
+        "cgpa": "91%"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "achievement-winner-model-united-nations",
+      "chunkType": "achievement",
+      "source": "achievements",
+      "title": "Winner - Model United Nations",
+      "tags": [
+        "achievement"
+      ],
+      "text": "I earned the Winner - Model United Nations in 2023. Represented the Republic of Poland at NIT Patna's Model United Nations. Earned the Best Delegate award for exceptional debate skills and impactful resolutions.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "achievement-technical-member",
+      "chunkType": "achievement",
+      "source": "achievements",
+      "title": "Technical Member",
+      "tags": [
+        "achievement"
+      ],
+      "text": "I earned the Technical Member in 2023 - Present. Active member of the Robotics Club, led team building combat and soccer bots, organized workshops.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "achievement-class-representative",
+      "chunkType": "achievement",
+      "source": "achievements",
+      "title": "Class Representative",
+      "tags": [
+        "achievement"
+      ],
+      "text": "I earned the Class Representative in 2023 - 2024. Coordinated between faculty and students, organized department events for 3 semesters.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "achievement-bronze-medal-nit-patna-intramurals",
+      "chunkType": "achievement",
+      "source": "achievements",
+      "title": "Bronze Medal - NIT Patna Intramurals",
+      "tags": [
+        "achievement"
+      ],
+      "text": "I earned the Bronze Medal - NIT Patna Intramurals in 2023. Won Bronze in 50m Hurdles at the university sports event.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "stat-leetcode-performance",
+      "chunkType": "stat",
+      "source": "achievements",
+      "title": "LeetCode Performance",
+      "tags": [
+        "leetcode",
+        "competitive-programming"
+      ],
+      "text": "I have a LeetCode rating of 1659 with a maximum rating of 1693. I rank in the top Top 16.4% globally with a global rank of 128980 and have solved 371 problems.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "stat-codechef-performance",
+      "chunkType": "stat",
+      "source": "achievements",
+      "title": "CodeChef Performance",
+      "tags": [
+        "codechef",
+        "competitive-programming"
+      ],
+      "text": "I am a 2★ rated CodeChef programmer competing in Div 3. My rating is 1451 with a maximum of 1456.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "stat-codeforces-performance",
+      "chunkType": "stat",
+      "source": "achievements",
+      "title": "Codeforces Performance",
+      "tags": [
+        "codeforces",
+        "competitive-programming"
+      ],
+      "text": "I have a Codeforces rating of 1030 with a maximum of 1085. My rank is Newbie and I have solved 27 problems.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "stat-geeksforgeeks-performance",
+      "chunkType": "stat",
+      "source": "achievements",
+      "title": "GeeksForGeeks Performance",
+      "tags": [
+        "geeksforgeeks",
+        "competitive-programming"
+      ],
+      "text": "I have solved 130 problems on GeeksForGeeks and hold a global rank of 1058.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "stat-overall-coding-statistics",
+      "chunkType": "stat",
+      "source": "achievements",
+      "title": "Overall Coding Statistics",
+      "tags": [
+        "stats"
+      ],
+      "text": "I have over 2+ years of coding experience, made more than 500+ commits, and solved over 500+ algorithmic problems.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "experience-technical-member-at-robotics-club-nit-patna",
+      "chunkType": "experience",
+      "source": "experience",
+      "title": "Technical Member at Robotics Club, NIT Patna",
+      "tags": [
+        "experience"
+      ],
+      "text": "As a Technical Member at Robotics Club, NIT Patna, I Organized and facilitated 3+ workshops on designing and building robotic bots. Led a team of 4 to build a combat-ready battle bot, achieving 4th place among 15+ teams at NIT Patna's tech fest. Directed a team of 3 in designing and developing a soccer bot for the annual tech fest, enhancing hands-on robotics and teamwork skills.",
+      "meta": {
+        "skills": [
+          "Arduino",
+          "Mechanical Design",
+          "Team Leadership"
+        ],
+        "location": "NIT Patna"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "experience-class-representative-at-computer-science-department-nit-patna",
+      "chunkType": "experience",
+      "source": "experience",
+      "title": "Class Representative at Computer Science Department, NIT Patna",
+      "tags": [
+        "experience"
+      ],
+      "text": "As a Class Representative at Computer Science Department, NIT Patna, I Served as the official representative for the Computer Science Engineering department for 3 consecutive semesters. Coordinated communication between faculty and students, organized department events and academic activities. Facilitated student concerns and feedback to administration, contributing to improved academic environment and student satisfaction.",
+      "meta": {
+        "skills": [
+          "Communication",
+          "Leadership",
+          "Event Management",
+          "Problem Resolution"
+        ],
+        "location": "NIT Patna"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "experience-team-leader-at-hackathons-including-smart-india-hackathon",
+      "chunkType": "experience",
+      "source": "experience",
+      "title": "Team Leader at Hackathons (including Smart India Hackathon)",
+      "tags": [
+        "experience"
+      ],
+      "text": "As a Team Leader at Hackathons (including Smart India Hackathon), I Led teams in 4 major hackathons, including the prestigious Smart India Hackathon. Guided my team to qualify at the internal NIT Patna hackathon and advance to the national level. Oversaw all phases from ideation to development and presentation, ensuring effective collaboration and timely delivery of innovative solutions.",
+      "meta": {
+        "skills": [
+          "Problem Solving",
+          "Team Management",
+          "Presentation",
+          "Innovation"
+        ],
+        "location": "NIT Patna & Remote"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "project-bookhive-live",
+      "chunkType": "project",
+      "source": "projects",
+      "title": "BookHive — Live",
+      "tags": [
+        "project",
+        "Full Stack"
+      ],
+      "text": "I built BookHive, a full-stack library management system with distinct user and admin roles. It features book and PYQ management, a borrowing system, OTP-verified authentication, and separate dashboards. Built with React, Node.js, Express.js, and MongoDB.. I used React, Redux Toolkit, Node.js, Express, MongoDB, JWT to implement features such as Full-stack library management system, User and admin role management, Book and PYQ management, OTP-verified authentication, Separate user and admin dashboards.",
+      "meta": {
+        "live": "https://bookhive-manager.vercel.app",
+        "github": "https://github.com/yuvraj-mehta/Byteverse_NandiNinjas"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "project-portfolio-website-live",
+      "chunkType": "project",
+      "source": "projects",
+      "title": "Portfolio Website — Live",
+      "tags": [
+        "project",
+        "Frontend"
+      ],
+      "text": "I built Portfolio Website, Personal developer portfolio showcasing projects and skills. Designed and built a responsive single-page portfolio with smooth animations and dynamic navigation. Integrated a contact form using EmailJS and added a downloadable resume feature.. I used React, Tailwind CSS, Framer Motion, Vite to implement features such as Responsive single-page portfolio, Smooth animations and dynamic navigation, Integrated contact form with EmailJS, Downloadable resume feature.",
+      "meta": {
+        "live": "https://yuvrajmehta.codes",
+        "github": "https://github.com/yuvraj-mehta/My-Portfolio"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "project-ecoguardian-live",
+      "chunkType": "project",
+      "source": "projects",
+      "title": "EcoGuardian — Live",
+      "tags": [
+        "project",
+        "Full Stack"
+      ],
+      "text": "I built EcoGuardian, An online community platform empowering individuals to collaborate on environmental projects, report cleanliness issues, access educational resources, and drive positive change for a cleaner, greener future. 🌍. I used HTML, CSS, JavaScript, Node.js, Express, MongoDB to implement features such as Environmental community platform, Project collaboration features, Cleanliness issue reporting, Educational resources access.",
+      "meta": {
+        "live": "https://yuvraj-mehta.github.io/EcoGuardian_prototype/",
+        "github": "https://github.com/yuvraj-mehta/EcoGuardian_prototype"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "project-stickify-live",
+      "chunkType": "project",
+      "source": "projects",
+      "title": "Stickify — Live",
+      "tags": [
+        "project",
+        "Frontend"
+      ],
+      "text": "I built Stickify, This is a simple notes application built with React and Vite. It allows users to create, update, delete, and manage notes with different colors. The application uses Appwrite as the backend service for managing notes.. I used React, Vite, Tailwind CSS, Appwrite to implement features such as Simple notes application, Create, update, delete notes, Color-coded note organization, Appwrite backend integration.",
+      "meta": {
+        "live": "https://stickify-git-master-yuvraj-mehtas-projects.vercel.app/",
+        "github": "https://github.com/yuvraj-mehta/Stickify"
+      },
+      "shouldEmbed": true
+    },
+    {
+      "id": "skill-skills-frontend",
+      "chunkType": "skill",
+      "source": "skills",
+      "title": "Skills — frontend",
+      "tags": [
+        "skills",
+        "frontend"
+      ],
+      "text": "I am proficient in React, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Next.js, Redux, Vue.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "skill-skills-backend",
+      "chunkType": "skill",
+      "source": "skills",
+      "title": "Skills — backend",
+      "tags": [
+        "skills",
+        "backend"
+      ],
+      "text": "I am proficient in Node.js, RESTful APIs, Express.js.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "skill-skills-database",
+      "chunkType": "skill",
+      "source": "skills",
+      "title": "Skills — database",
+      "tags": [
+        "skills",
+        "database"
+      ],
+      "text": "I am proficient in MongoDB, SQL, Database Design.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "skill-skills-languages",
+      "chunkType": "skill",
+      "source": "skills",
+      "title": "Skills — languages",
+      "tags": [
+        "skills",
+        "languages"
+      ],
+      "text": "I am proficient in JavaScript, TypeScript, C++, Java, Python.",
+      "meta": {},
+      "shouldEmbed": true
+    },
+    {
+      "id": "skill-skills-tools",
+      "chunkType": "skill",
+      "source": "skills",
+      "title": "Skills — tools",
+      "tags": [
+        "skills",
+        "tools"
+      ],
+      "text": "I am proficient in Git & GitHub, VS Code, Webpack, Docker.",
+      "meta": {},
+      "shouldEmbed": true
+    }
+  ]
+}

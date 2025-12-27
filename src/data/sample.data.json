@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "owner": "Yuvraj Mehta",
+    "generatedAt": "2025-12-27T08:11:58.369Z",
+    "source": "src/data consolidated",
+    "version": "2f44d5aa"
+  },
+  "personalInfo": {
+    "name": "Yuvraj Mehta",
+    "title": "Full Stack Developer",
+    "subtitle": "B.Tech CS Student • NIT Patna",
+    "tagline": "Full Stack Developer • B.Tech CS Student • NIT Patna • Passionate about creating impactful digital solutions",
+    "email": "yuvraj.mehta532@gmail.com",
+    "phone": "+91-9334083113",
+    "location": "Gaya, Bihar, India",
+    "currentLocation": "Patna, India",
+    "timezone": "IST (UTC +5:30)",
+    "university": "NIT Patna",
+    "course": "Computer Science and Engineering",
+    "availability": "Available",
+    "workMode": "Remote",
+    "bio": {
+      "intro": "B.Tech CS student at NIT Patna passionate about building full stack applications with a focus on user-friendly interfaces. Skilled in MERN Stack.",
+      "full": "Computer Science student at NIT Patna passionate about full stack development with a strong foundation in Data Structures & Algorithms. I approach technical challenges analytically and continually expand my skills in GenAI and modern web technologies. As a Robotics Club member, I've organized workshops and led teams building combat and soccer bots. Outside coding, I enjoy competitive programming and sports, having won Bronze in 50m Hurdles at NIT Patna Intramurals.",
+      "robotics": "As a Robotics Club member, I've organized workshops and led teams building combat and soccer bots. I believe in learning by doing and enjoy sharing knowledge with others through mentoring and technical discussions.",
+      "interests": "When I'm not coding, you can find me solving algorithmic challenges on competitive programming platforms, participating in hackathons, or running track. I won Bronze in 50m Hurdles at NIT Patna Intramurals!"
+    }
+  },
+  "careerPreferences": {
+    "targetRoles": [
+      "Software Engineer",
+      "Full Stack Developer",
+      "Backend Developer"
+    ],
+    "jobTypes": [
+      "Internship",
+      "Full-Time"
+    ],
+    "preferredDomains": [
+      "Web Development",
+      "Backend Systems",
+      "Distributed Systems",
+      "Generative AI"
+    ],
+    "workModePreferences": [
+      "Remote",
+      "Hybrid",
+      "Onsite"
+    ],
+    "openToRelocation": true,
+    "preferredLocations": [
+      "India",
+      "Remote"
+    ],
+    "availability": "Available",
+    "noticePeriod": "Not applicable (student)"
+  },
+  "socialLinks": {
+    "github": "https://github.com/yuvraj-mehta",
+    "linkedin": "https://www.linkedin.com/in/mehta-yuvraj",
+    "leetcode": "https://leetcode.com/u/holaGuy/",
+    "geeksforgeeks": "https://www.geeksforgeeks.org/user/yuvrajmevbrx/",
+    "codechef": "https://www.codechef.com/users/quick_unity_53",
+    "codeforces": "https://codeforces.com/profile/yuvraj.mehta532",
+    "twitter": "https://x.com/yuvraj_mehta02",
+    "instagram": "https://www.instagram.com/yuvraj.mehta4261/"
+  },
+  "interests": [
+    {
+      "id": "robotics",
+      "name": "Robotics",
+      "description": "Building combat & soccer bots"
+    },
+    {
+      "id": "athletics",
+      "name": "Athletics",
+      "description": "Bronze in 50m Hurdles"
+    },
+    {
+      "id": "competitive-programming",
+      "name": "Competitive Programming",
+      "description": "LeetCode, Codeforces & more"
+    },
+    {
+      "id": "mentoring",
+      "name": "Mentoring",
+      "description": "Leading workshops"
+    }
+  ],
+  "achievements": {
+    "competitiveProgramming": {
+      "leetcode": {
+        "rating": "1659",
+        "maxRating": "1693",
+        "problemsSolved": "371",
+        "globalRanking": "128980",
+        "percentile": "Top 16.4%"
+      },
+      "codechef": {
+        "rating": "1451",
+        "maxRating": "1456",
+        "problemsSolved": "25",
+        "stars": "2★",
+        "division": "Div 3"
+      },
+      "codeforces": {
+        "rating": "1030",
+        "maxRating": "1085",
+        "problemsSolved": "27",
+        "rank": "Newbie"
+      },
+      "geeksforgeeks": {
+        "problemsSolved": "130",
+        "rank": "1058"
+      }
+    },
+    "overallStats": {
+      "yearsExperience": "2+",
+      "commits": "500+",
+      "totalProblemsSolved": "500+"
+    },
+    "awards": [
+      {
+        "title": "Winner - Model United Nations",
+        "year": "2023",
+        "description": "Represented the Republic of Poland at NIT Patna's Model United Nations. Earned the Best Delegate award for exceptional debate skills and impactful resolutions."
+      },
+      {
+        "title": "Technical Member",
+        "year": "2023 - Present",
+        "description": "Active member of the Robotics Club, led team building combat and soccer bots, organized workshops."
+      },
+      {
+        "title": "Class Representative",
+        "year": "2023 - 2024",
+        "description": "Coordinated between faculty and students, organized department events for 3 semesters."
+      },
+      {
+        "title": "Bronze Medal - NIT Patna Intramurals",
+        "year": "2023",
+        "description": "Won Bronze in 50m Hurdles at the university sports event."
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "title": "Web Development Bootcamp",
+      "issuer": "Udemy",
+      "year": "2023",
+      "description": "Comprehensive full-stack web development course covering HTML, CSS, JavaScript, React, and Node.js"
+    }
+  ],
+  "education": [
+    {
+      "level": "Bachelor of Technology",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "National Institute of Technology, Patna",
+      "location": "Patna, Bihar",
+      "duration": "2023 - 2027",
+      "status": "current",
+      "cgpa": "7.68/10",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Artificial Intelligence"
+      ],
+      "activities": [
+        "Class Representative for CSE Department",
+        "Member of Technical Club",
+        "Competitive Programming Participant"
+      ],
+      "achievements": [
+        "Maintaining CGPA of 7.68/10",
+        "Class Representative for CSE Department",
+        "MUN Best Delegate Award"
+      ]
+    },
+    {
+      "level": "Higher Secondary",
+      "degree": "Class XII (CBSE)",
+      "institution": "Pragya Bharti Public School, Gaya",
+      "location": "Gaya, Bihar",
+      "duration": "2021 - 2022",
+      "status": "completed",
+      "percentage": "88.88%",
+      "courses": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "English",
+        "Physical Education"
+      ],
+      "activities": [],
+      "achievements": [
+        "Scored 88.88% in CBSE Class 12",
+        "School Merit List"
+      ]
+    },
+    {
+      "level": "Secondary",
+      "degree": "Class X (CBSE)",
+      "institution": "Pragya Bharti Public School, Gaya",
+      "location": "Gaya, Bihar",
+      "duration": "2019 - 2020",
+      "status": "completed",
+      "percentage": "91%",
+      "courses": [
+        "Science",
+        "Mathematics",
+        "Social Studies",
+        "English",
+        "Sanskrit",
+        "Information Technology"
+      ],
+      "activities": [
+        "Science Exhibitions",
+        "Sports Competitions",
+        "Debate Competitions"
+      ],
+      "achievements": [
+        "Scored 91% in CBSE Class 10"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Technical Member",
+      "organization": "Robotics Club, NIT Patna",
+      "location": "NIT Patna",
+      "period": "December 2023 - Present",
+      "description": "Organized and facilitated 3+ workshops on designing and building robotic bots. Led a team of 4 to build a combat-ready battle bot, achieving 4th place among 15+ teams at NIT Patna's tech fest. Directed a team of 3 in designing and developing a soccer bot for the annual tech fest, enhancing hands-on robotics and teamwork skills.",
+      "skills": [
+        "Arduino",
+        "Mechanical Design",
+        "Team Leadership"
+      ]
+    },
+    {
+      "role": "Class Representative",
+      "organization": "Computer Science Department, NIT Patna",
+      "location": "NIT Patna",
+      "period": "2023 - 2024",
+      "description": "Served as the official representative for the Computer Science Engineering department for 3 consecutive semesters. Coordinated communication between faculty and students, organized department events and academic activities. Facilitated student concerns and feedback to administration, contributing to improved academic environment and student satisfaction.",
+      "skills": [
+        "Communication",
+        "Leadership",
+        "Event Management",
+        "Problem Resolution"
+      ]
+    },
+    {
+      "role": "Team Leader",
+      "organization": "Hackathons (including Smart India Hackathon)",
+      "location": "NIT Patna & Remote",
+      "period": "2023",
+      "description": "Led teams in 4 major hackathons, including the prestigious Smart India Hackathon. Guided my team to qualify at the internal NIT Patna hackathon and advance to the national level. Oversaw all phases from ideation to development and presentation, ensuring effective collaboration and timely delivery of innovative solutions.",
+      "skills": [
+        "Problem Solving",
+        "Team Management",
+        "Presentation",
+        "Innovation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "bookhive",
+      "name": "BookHive",
+      "category": "Full Stack",
+      "description": "BookHive is a full-stack library management system with distinct user and admin roles. It features book and PYQ management, a borrowing system, OTP-verified authentication, and separate dashboards. Built with React, Node.js, Express.js, and MongoDB.",
+      "techStack": [
+        "React",
+        "Redux Toolkit",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT"
+      ],
+      "features": [
+        "Full-stack library management system",
+        "User and admin role management",
+        "Book and PYQ management",
+        "OTP-verified authentication",
+        "Separate user and admin dashboards"
+      ],
+      "links": {
+        "live": "https://bookhive-manager.vercel.app",
+        "github": "https://github.com/yuvraj-mehta/Byteverse_NandiNinjas"
+      },
+      "status": "Live"
+    },
+    {
+      "id": "portfolio-website",
+      "name": "Portfolio Website",
+      "category": "Frontend",
+      "description": "Personal developer portfolio showcasing projects and skills. Designed and built a responsive single-page portfolio with smooth animations and dynamic navigation. Integrated a contact form using EmailJS and added a downloadable resume feature.",
+      "techStack": [
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Vite"
+      ],
+      "features": [
+        "Responsive single-page portfolio",
+        "Smooth animations and dynamic navigation",
+        "Integrated contact form with EmailJS",
+        "Downloadable resume feature"
+      ],
+      "links": {
+        "live": "https://yuvrajmehta.codes",
+        "github": "https://github.com/yuvraj-mehta/My-Portfolio"
+      },
+      "status": "Live"
+    },
+    {
+      "id": "ecoguardian",
+      "name": "EcoGuardian",
+      "category": "Full Stack",
+      "description": "An online community platform empowering individuals to collaborate on environmental projects, report cleanliness issues, access educational resources, and drive positive change for a cleaner, greener future. 🌍",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "features": [
+        "Environmental community platform",
+        "Project collaboration features",
+        "Cleanliness issue reporting",
+        "Educational resources access"
+      ],
+      "links": {
+        "live": "https://yuvraj-mehta.github.io/EcoGuardian_prototype/",
+        "github": "https://github.com/yuvraj-mehta/EcoGuardian_prototype"
+      },
+      "status": "Live"
+    },
+    {
+      "id": "stickify",
+      "name": "Stickify",
+      "category": "Frontend",
+      "description": "This is a simple notes application built with React and Vite. It allows users to create, update, delete, and manage notes with different colors. The application uses Appwrite as the backend service for managing notes.",
+      "techStack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Appwrite"
+      ],
+      "features": [
+        "Simple notes application",
+        "Create, update, delete notes",
+        "Color-coded note organization",
+        "Appwrite backend integration"
+      ],
+      "links": {
+        "live": "https://stickify-git-master-yuvraj-mehtas-projects.vercel.app/",
+        "github": "https://github.com/yuvraj-mehta/Stickify"
+      },
+      "status": "Live"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Next.js",
+      "Redux",
+      "Vue"
+    ],
+    "backend": [
+      "Node.js",
+      "RESTful APIs",
+      "Express.js"
+    ],
+    "database": [
+      "MongoDB",
+      "SQL",
+      "Database Design"
+    ],
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "C++",
+      "Java",
+      "Python"
+    ],
+    "tools": [
+      "Git & GitHub",
+      "VS Code",
+      "Webpack",
+      "Docker"
+    ]
+  },
+  "currentFocus": {
+    "learning": "Advanced React Patterns & System Design",
+    "building": "Building Full-Stack Projects with Next.js",
+    "lookingFor": "Internships & Full-time Opportunities"
+  }
+}

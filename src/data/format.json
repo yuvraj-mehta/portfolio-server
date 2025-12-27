@@ -1,0 +1,552 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portfolio Knowledge Schema",
+  "type": "object",
+  "required": [
+    "meta",
+    "personalInfo",
+    "careerPreferences",
+    "socialLinks",
+    "interests",
+    "achievements",
+    "certifications",
+    "education",
+    "experience",
+    "projects",
+    "skills",
+    "currentFocus"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "owner",
+        "generatedAt",
+        "source",
+        "version"
+      ],
+      "properties": {
+        "owner": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "personalInfo": {
+      "type": "object",
+      "required": [
+        "name",
+        "title",
+        "email",
+        "phone",
+        "location",
+        "bio"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "tagline": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "currentLocation": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "university": {
+          "type": "string"
+        },
+        "course": {
+          "type": "string"
+        },
+        "availability": {
+          "type": "string"
+        },
+        "workMode": {
+          "type": "string"
+        },
+        "bio": {
+          "type": "object",
+          "required": [
+            "intro",
+            "full"
+          ],
+          "properties": {
+            "intro": {
+              "type": "string"
+            },
+            "full": {
+              "type": "string"
+            },
+            "robotics": {
+              "type": "string"
+            },
+            "interests": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "careerPreferences": {
+      "type": "object",
+      "required": [
+        "targetRoles",
+        "jobTypes",
+        "preferredDomains",
+        "workModePreferences",
+        "openToRelocation",
+        "preferredLocations"
+      ],
+      "properties": {
+        "targetRoles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "jobTypes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preferredDomains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "workModePreferences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "openToRelocation": {
+          "type": "boolean"
+        },
+        "preferredLocations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "availability": {
+          "type": "string"
+        },
+        "noticePeriod": {
+          "type": "string"
+        }
+      }
+    },
+    "socialLinks": {
+      "type": "object",
+      "required": [
+        "github",
+        "linkedin"
+      ],
+      "properties": {
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "linkedin": {
+          "type": "string",
+          "format": "uri"
+        },
+        "leetcode": {
+          "type": "string",
+          "format": "uri"
+        },
+        "geeksforgeeks": {
+          "type": "string",
+          "format": "uri"
+        },
+        "codechef": {
+          "type": "string",
+          "format": "uri"
+        },
+        "codeforces": {
+          "type": "string",
+          "format": "uri"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri"
+        },
+        "instagram": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "achievements": {
+      "type": "object",
+      "required": [
+        "competitiveProgramming",
+        "overallStats",
+        "awards"
+      ],
+      "properties": {
+        "competitiveProgramming": {
+          "type": "object",
+          "required": [
+            "leetcode",
+            "codechef",
+            "codeforces",
+            "geeksforgeeks"
+          ],
+          "properties": {
+            "leetcode": {
+              "type": "object"
+            },
+            "codechef": {
+              "type": "object"
+            },
+            "codeforces": {
+              "type": "object"
+            },
+            "geeksforgeeks": {
+              "type": "object"
+            }
+          }
+        },
+        "overallStats": {
+          "type": "object",
+          "required": [
+            "yearsExperience",
+            "commits",
+            "totalProblemsSolved"
+          ],
+          "properties": {
+            "yearsExperience": {
+              "type": "string"
+            },
+            "commits": {
+              "type": "string"
+            },
+            "totalProblemsSolved": {
+              "type": "string"
+            }
+          }
+        },
+        "awards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "year",
+              "description"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "year": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "issuer",
+          "year",
+          "description"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "issuer": {
+            "type": "string"
+          },
+          "year": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "level",
+          "degree",
+          "institution",
+          "location",
+          "duration",
+          "status"
+        ],
+        "properties": {
+          "level": {
+            "type": "string"
+          },
+          "degree": {
+            "type": "string"
+          },
+          "institution": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "duration": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "cgpa": {
+            "type": "string"
+          },
+          "percentage": {
+            "type": "string"
+          },
+          "courses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "activities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "achievements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "organization",
+          "location",
+          "period",
+          "description",
+          "skills"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "description",
+          "techStack",
+          "features",
+          "links",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "techStack": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "links": {
+            "type": "object",
+            "required": [
+              "live",
+              "github"
+            ],
+            "properties": {
+              "live": {
+                "type": "string",
+                "format": "uri"
+              },
+              "github": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "required": [
+        "frontend",
+        "backend",
+        "database",
+        "languages",
+        "tools"
+      ],
+      "properties": {
+        "frontend": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "backend": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "database": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "currentFocus": {
+      "type": "object",
+      "required": [
+        "learning",
+        "building",
+        "lookingFor"
+      ],
+      "properties": {
+        "learning": {
+          "type": "string"
+        },
+        "building": {
+          "type": "string"
+        },
+        "lookingFor": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

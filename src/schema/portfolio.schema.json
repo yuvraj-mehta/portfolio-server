@@ -1,0 +1,271 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portfolio Profile Schema",
+  "description": "Schema for validating portfolio profile initialization data",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "description": "Metadata about the profile",
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "Profile data version"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp when profile was created/updated"
+        }
+      }
+    },
+    "personalInfo": {
+      "type": "object",
+      "description": "Personal information of the portfolio owner",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Full name"
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Professional title or designation"
+        },
+        "bio": {
+          "description": "Short biography (any type accepted)"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Email address"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Contact phone number"
+        },
+        "location": {
+          "type": "string",
+          "description": "Location/Address"
+        },
+        "avatar": {
+          "type": "string",
+          "format": "uri",
+          "description": "Avatar image URL"
+        }
+      },
+      "required": [
+        "name",
+        "email"
+      ]
+    },
+    "experience": {
+      "type": "array",
+      "description": "Professional work experience",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for experience entry"
+          },
+          "company": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Company name"
+          },
+          "position": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Job position/title"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Start date (YYYY-MM-DD)"
+          },
+          "endDate": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "description": "End date or null if currently working"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of role and achievements"
+          },
+          "isCurrent": {
+            "type": "boolean",
+            "description": "Whether this is the current position"
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": [
+        "array",
+        "object",
+        "null"
+      ],
+      "description": "List of professional skills",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for skill"
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Skill category (e.g., Programming, Design)"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Skill name"
+          },
+          "proficiency": {
+            "type": "string",
+            "enum": [
+              "Beginner",
+              "Intermediate",
+              "Advanced",
+              "Expert"
+            ],
+            "description": "Proficiency level"
+          },
+          "yearsOfExperience": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Years of experience with this skill"
+          }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "description": "Portfolio projects",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique project identifier"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Project title"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Project description"
+          },
+          "technologies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Technologies used in the project"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Project start date"
+          },
+          "endDate": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "description": "Project end date"
+          },
+          "link": {
+            "type": "string",
+            "format": "uri",
+            "description": "Project link/URL"
+          },
+          "imageUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Project preview image URL"
+          }
+        }
+      }
+    },
+    "education": {
+      "type": "array",
+      "description": "Educational background",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique education entry identifier"
+          },
+          "institution": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Educational institution name"
+          },
+          "degree": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Degree obtained"
+          },
+          "field": {
+            "type": "string",
+            "description": "Field of study"
+          },
+          "graduationDate": {
+            "type": "string",
+            "format": "date",
+            "description": "Graduation date"
+          }
+        },
+        "required": [
+          "institution",
+          "degree"
+        ]
+      }
+    },
+    "socialLinks": {
+      "type": "object",
+      "description": "Social media and professional links",
+      "properties": {
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "linkedin": {
+          "type": "string",
+          "format": "uri"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri"
+        },
+        "portfolio": {
+          "type": "string",
+          "format": "uri"
+        },
+        "blog": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "personalInfo"
+  ],
+  "additionalProperties": true
+}

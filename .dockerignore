@@ -1,0 +1,22 @@
+# Ignore dependencies and caches
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env and secrets (pass at runtime)
+.env
+.env.*
+
+# VCS
+.git
+.gitignore
+
+# OS/editor noise
+.DS_Store
+.vscode/
+
+# Build outputs
+coverage/
+dist/
+build/
