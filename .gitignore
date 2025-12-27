@@ -15,6 +15,7 @@ node_modules/
 .env.staging.local
 *.env
 !.env.example
+!.env.*.example
 !.env.template
 
 dist/
